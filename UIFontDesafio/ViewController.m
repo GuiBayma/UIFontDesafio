@@ -1,8 +1,8 @@
 //
-//  ViewController.m
+//  MeuViewController.m
 //  UIFontDesafio
 //
-//  Created by Joaquim Pessôa Filho on 23/02/15.
+//  Created by Guilherme Bayma on 2/24/15.
 //  Copyright (c) 2015 Joaquim Pessôa Filho. All rights reserved.
 //
 
@@ -16,12 +16,27 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+}
+
+- (IBAction)mudarFonte:(id)sender {
+    UIButton *btn = (UIButton *) sender;
+    [_labelNome setFont:[UIFont fontWithName:[[btn titleLabel] text] size:17]];
+    [_campoTexto resignFirstResponder];
+}
+
+- (IBAction)alterar:(id)sender {
+    if (![[_campoTexto text]  isEqual: @""]) {
+        [_labelNome setText:[_campoTexto text]];
+    }
+    [_campoTexto resignFirstResponder];
+}
+
+-(void)touchesBegan:(NSSet *)touches withEvent:(UIEvent *)event {
+    [_campoTexto resignFirstResponder];
 }
 
 @end

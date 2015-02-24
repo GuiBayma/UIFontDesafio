@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		171A6B111A9CBC4D004DEB37 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 171A6B101A9CBC4D004DEB37 /* ViewController.m */; };
 		A1285B151A9BFE0000DA931B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = A1285B141A9BFE0000DA931B /* main.m */; };
 		A1285B181A9BFE0000DA931B /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = A1285B171A9BFE0000DA931B /* AppDelegate.m */; };
-		A1285B1B1A9BFE0000DA931B /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A1285B1A1A9BFE0000DA931B /* ViewController.m */; };
 		A1285B1E1A9BFE0000DA931B /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A1285B1C1A9BFE0000DA931B /* Main.storyboard */; };
 		A1285B201A9BFE0000DA931B /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A1285B1F1A9BFE0000DA931B /* Images.xcassets */; };
 		A1285B231A9BFE0000DA931B /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = A1285B211A9BFE0000DA931B /* LaunchScreen.xib */; };
@@ -27,13 +27,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		171A6B0F1A9CBC4D004DEB37 /* ViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		171A6B101A9CBC4D004DEB37 /* ViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A1285B0F1A9BFE0000DA931B /* UIFontDesafio.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UIFontDesafio.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A1285B131A9BFE0000DA931B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A1285B141A9BFE0000DA931B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		A1285B161A9BFE0000DA931B /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		A1285B171A9BFE0000DA931B /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		A1285B191A9BFE0000DA931B /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		A1285B1A1A9BFE0000DA931B /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		A1285B1D1A9BFE0000DA931B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		A1285B1F1A9BFE0000DA931B /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		A1285B221A9BFE0000DA931B /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
@@ -83,12 +83,12 @@
 			children = (
 				A1285B161A9BFE0000DA931B /* AppDelegate.h */,
 				A1285B171A9BFE0000DA931B /* AppDelegate.m */,
-				A1285B191A9BFE0000DA931B /* ViewController.h */,
-				A1285B1A1A9BFE0000DA931B /* ViewController.m */,
 				A1285B1C1A9BFE0000DA931B /* Main.storyboard */,
 				A1285B1F1A9BFE0000DA931B /* Images.xcassets */,
 				A1285B211A9BFE0000DA931B /* LaunchScreen.xib */,
 				A1285B121A9BFE0000DA931B /* Supporting Files */,
+				171A6B0F1A9CBC4D004DEB37 /* ViewController.h */,
+				171A6B101A9CBC4D004DEB37 /* ViewController.m */,
 			);
 			path = UIFontDesafio;
 			sourceTree = "<group>";
@@ -220,7 +220,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				A1285B1B1A9BFE0000DA931B /* ViewController.m in Sources */,
+				171A6B111A9CBC4D004DEB37 /* ViewController.m in Sources */,
 				A1285B181A9BFE0000DA931B /* AppDelegate.m in Sources */,
 				A1285B151A9BFE0000DA931B /* main.m in Sources */,
 			);
